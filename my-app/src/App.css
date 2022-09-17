@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C; 
+    position: absolute;
+}
+
+img {
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+}
+
+h1 {
+    position: absolute;
+    width: 178.06px;
+    left: 186px;
+    top: 372px;
+    font-family: 'Inter';
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#Frontend {
+    position: absolute;
+    width: 178.06px;
+    left: 186px;
+    top: 408px;
+    font-family: 'Inter';
+    font-size: 12.8px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+#desc-text {
+    position: absolute;
+    width: 228px;
+    height: 16px;
+    left: 161px;
+    top: 442px;
+    font-family: 'Inter';
+    font-size: 10.24px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+
+#email-icon {
+    width: 16px;
+    height: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url("./components/Mail.png");
+}
+
+#email-text {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #374151;
+}
+
+#linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    background: #5093E2;
+    border-radius: 6px;
+    border: 0;
+}
+
+#linkedin-text {
+    width: 57px;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#linkedin-icon {
+    width: 16px;
+    height: 16px;
+    background: url(./components/linkedin.png);
+}
+
+#background {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
+    z-index: -1;
+}
+
+#About {
+    position: absolute;
+    left: 152px;
+    top: 535px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+#About-text {
+    position: absolute;
+    width: 247px;
+    left: 152px;
+    top: 561px;
+    font-family: 'Inter';
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+#Interests {
+    position: absolute;
+    left: 152px;
+    top: 670px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+#Interests-text {
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 687px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+footer {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#twitter {
+    position: absolute;
+    left: 22.36%;
+    top: 29.75%;
+    background: url(./components/Twitter_Icon.png);
+    border: 0;
+    width: 8%;
+    height: 39.5%;
+}
+
+#facebook {
+    position: absolute;
+    left: 38.27%;
+    top: 30.05%;
+    background: url(./components/Facebook_Icon.png);
+    border: 0; 
+    width: 7.9%;
+    height: 39.5%;
+}
+
+#instagram {
+    position: absolute;
+    left: 54.18%;
+    top: 29.30%;
+    background: url(./components/Instagram_Icon.png);
+    border: 0;
+    width: 8.1%;
+    height: 40%;
+}
+
+#github {
+    position: absolute;
+    left: 70.09%;
+    top: 29.5%;
+    background: url(./components/GitHub_Icon.png);
+    border: 0; 
+    width: 8.3%;
+    height: 41.5%;
+}
